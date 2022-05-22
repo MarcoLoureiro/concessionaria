@@ -1,0 +1,34 @@
+{{>partials/header}}
+ 
+<div class="container">
+
+    <div class="form-content">
+        <div class="form-items">
+        <h3>Dados do Carro</h3>
+            <form action="/carro-novo-carro" method="post">
+                <div class="form-group">
+                    <label>Modelo:</label>
+                    <input type="text" name="modelo" placeholder="Modelo do carro" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Ano de Fabricação:</label>
+                    <input type="number" name="anoFabricacao" placeholder="Ano de fabricação do veículo" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Quantidade de portas</label>
+                    <select class="form-control" name="quantidadePortas">
+                    <option>2</option>
+                    <option>4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Marca:</label>
+                    <input type="text" name="marca" placeholder="Digite a marca do veículo" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{{>partials/footer}}
