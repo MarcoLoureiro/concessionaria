@@ -21,3 +21,5 @@
 
 # Observações
 - O retorno das telas de carro e moto é um simples json
+- Falta exibição dos objetos cadastrados (Implementar local ou com mongo)
+- Falta adicionar outras opções (Cadastro e deleção)
